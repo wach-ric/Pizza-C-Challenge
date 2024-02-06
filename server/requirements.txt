@@ -1,0 +1,17 @@
+alembic
+blinker
+click
+Faker
+Flask
+Flask-Migrate
+Flask-RESTful
+Flask-SQLAlchemy
+Flask-CORS
+importlib-metadata
+importlib-resources
+Jinja2
+Mako
+SQLAlchemy
+SQLAlchemy-serializer
+typing_extensions
+Werkzeug

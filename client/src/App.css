@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+
+:root {
+  --dark-one: #333;
+  --dark-two: #7a7a7a;
+  --dark-three: #0f0c16;
+  --main-color: #581a70b9;
+  --light-one: #fff;
+  --light-two: #f9fafb;
+  --light-three: #f6f7fb;
+  --light-four: #1db99f;
+  --light-five: #007BFF;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--light-two);
+  color: var(--dark-one);
+}
+
+.center-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-color: var(--light-three);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--dark-one);
+}
+
+.link:hover {
+  color: var(--main-color);
+}
+
+.home-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.home-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--dark-one);
+}
+
+.home-list {
+  list-style: none;
+  padding: 0;
+}
+
+.home-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--light-four);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: var(--dark-one);
+  font-weight: bold;
+}
+
+.home-link:hover {
+  color: var(--main-color);
+}
+
+.delete-button {
+  background-color: var(--dark-one);
+  color: var(--light-one);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.restaurant-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.restaurant-heading {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: var(--dark-one);
+}
+
+.restaurant-address {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--dark-two);
+}
+
+.restaurant-subheading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--dark-one);
+}
+
+.restaurant-list {
+  list-style: none;
+  padding: 0;
+}
+
+.restaurant-list-item {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--dark-one);
+}
+
+.restaurant-link {
+  text-decoration: none;
+  color: var(--light-one);
+  background-color: var(--main-color);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.restaurant-link:hover {
+  background-color: var(--light-five);
+}
